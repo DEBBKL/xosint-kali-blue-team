@@ -1,5 +1,7 @@
 # X-OSINT en Kali Linux - Guía y Script de Instalación para Blue Team
 
+Documentación profesional sobre la instalación, resolución de incidencias comunes y ejecución de X-OSINT en un entorno controlado de ciberseguridad Blue Team.
+
 ## Descripción
 
 Guía profesional paso a paso para la instalación de X-OSINT en Kali Linux. Incluye solución detallada a
@@ -17,27 +19,49 @@ X-OSINT es una herramienta que permite recopilar información de direcciones IP,
 - `informe-xosint.md`: Informe profesional con el procedimiento detallado de instalación, problemas comunes y soluciones aplicadas.
 - `LICENSE`: Licencia MIT para uso y distribución libre.
 
-```
-   /
-   ├── README.md
-   ├── informe-xosint.md
-   ├── script-instalacion.sh
-   ├── requirements.txt
+## Índice
+
+1. [Descripción del proyecto](#descripción-del-proyecto)
+2. [Requisitos](#requisitos)
+3. [Estructura del repositorio](#estructura-del-repositorio)
+4. [Instrucciones de instalación](#instrucciones-de-instalación)
+5. [Solución de errores comunes](#solución-de-errores-comunes)
+6. [Uso de X-OSINT](#uso-de-x-osint)
+7. [Contacto](#contacto)
+
+---
+
+## Descripción del proyecto
+
+Este repositorio documenta el proceso de instalación de **X-OSINT** en **Kali Linux**, herramienta utilizada en investigaciones OSINT sobre direcciones IP, correos electrónicos y dominios.  
+Se detallan errores frecuentes como `No space left on device`, conflictos con entornos virtuales y cómo resolverlos paso a paso.  
+Una guía útil para analistas de ciberseguridad que deseen replicar el entorno de trabajo en auditorías o investigaciones forenses.
+
+---
+
+## Requisitos
+
+- Kali Linux actualizado con al menos 80 GB de espacio en disco.
+- Python 3.13 y pip funcional.
+- Git instalado.
+- Permisos sudo.
+- Conexión a internet para instalación de paquetes.
+
+---
+
+## Estructura del repositorio
+
+```bash
+/
+├── README.md                 # Guía principal con instrucciones
+├── informe-xosint.md         # Informe detallado del proceso con resolución de errores
+├── script-instalacion.sh     # Script automatizado de instalación
+├── requirements.txt          # Dependencias necesarias para el entorno virtual
 ```
 
 ---
 
-## Requisitos previos
-
-- Sistema operativo Kali Linux actualizado (se recomienda última versión estable).
-- Al menos 80 GB de espacio libre en disco.
-- Python 3.13 o superior instalado.
-- Acceso con privilegios `sudo`.
-- Conexión a Internet para descargar dependencias.
-
----
-
-## Uso
+## Instrucciones de instalación
 
 1. Clonar el repositorio:
 
@@ -52,13 +76,15 @@ X-OSINT es una herramienta que permite recopilar información de direcciones IP,
    chmod +x install-xosint.sh
    ```
 
-3. Ejecutar el script de instalación con privilegios sudo:
+## Ejecutar el script de instalación con privilegios sudo:
 
    ```bash
    sudo ./install-xosint.sh
    ```
    
-4. Activar el entorno virtual y ejecutar X-OSINT:
+## Uso de X-OSINT
+
+Activar el entorno virtual y ejecutar X-OSINT:
 
    ```bash
    source ~/pillow-env/bin/activate
@@ -68,7 +94,7 @@ X-OSINT es una herramienta que permite recopilar información de direcciones IP,
 
 ---
 
-## Problemas comunes y soluciones
+## Solución de errores comunes
 
 Durante la instalación pueden surgir errores relacionados con:
 
@@ -78,18 +104,6 @@ Durante la instalación pueden surgir errores relacionados con:
 
 Para detalles y soluciones paso a paso, consulta el archivo informe-xosint.md.
 
-## Requisitos
-
-
-- Kali Linux actualizado.
-
-- Python 3.13 o superior.
-
-- pip instalado.
-
-- Git instalado.
-
-- Espacio en disco suficiente (mínimo 80 GB recomendados).
 
 ---
 
