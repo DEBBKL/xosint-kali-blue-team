@@ -17,11 +17,13 @@ X-OSINT es una herramienta que permite recopilar información de direcciones IP,
 - `informe-xosint.md`: Informe profesional con el procedimiento detallado de instalación, problemas comunes y soluciones aplicadas.
 - `LICENSE`: Licencia MIT para uso y distribución libre.
 
-/
-├── README.md
-├── informe-xosint.md
-├── script-instalacion.sh
-├── requirements.txt
+```
+   /
+   ├── README.md
+   ├── informe-xosint.md
+   ├── script-instalacion.sh
+   ├── requirements.txt
+```
 
 ---
 
