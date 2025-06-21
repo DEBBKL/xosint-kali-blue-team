@@ -2,7 +2,10 @@
 
 ## Descripción
 
-Este repositorio contiene una guía detallada y un script automatizado para la instalación de la herramienta **X-OSINT** en Kali Linux. Está orientado a analistas de seguridad y equipos Blue Team que deseen realizar inteligencia de fuentes abiertas (OSINT) de forma efectiva y rápida.
+Guía profesional paso a paso para la instalación de X-OSINT en Kali Linux. Incluye solución detallada a
+errores comunes como “No space left on device”, problemas con permisos en entornos virtuales de
+Python, y pasos de diagnóstico y mitigación. Ideal para analistas de ciberseguridad del equipo Blue
+Team que busquen documentar y replicar entornos de trabajo OSINT eficaces.
 
 X-OSINT es una herramienta que permite recopilar información de direcciones IP, dominios, correos electrónicos y otros indicadores relevantes para análisis de ciberseguridad.
 
@@ -13,6 +16,12 @@ X-OSINT es una herramienta que permite recopilar información de direcciones IP,
 - `install-xosint.sh`: Script bash que automatiza la instalación de X-OSINT y sus dependencias en Kali Linux.
 - `informe-xosint.md`: Informe profesional con el procedimiento detallado de instalación, problemas comunes y soluciones aplicadas.
 - `LICENSE`: Licencia MIT para uso y distribución libre.
+
+/
+├── README.md
+├── informe-xosint.md
+├── script-instalacion.sh
+├── requirements.txt
 
 ---
 
